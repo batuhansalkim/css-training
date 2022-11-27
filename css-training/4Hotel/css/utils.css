@@ -39,12 +39,62 @@
     border: none;
     border-radius: 5px;
 }
-btn:hover{
+.btn:hover{
     opacity: 0.9;
 }
-.btn-primary{
-    color: var(--white);
-    background-color: var(--primary);
+.btn-primary{ color: var(--white);  background-color: var(--primary);}
+
+.btn-secondary{ color: var(--white);  background-color: var(--secondary);}
+
+.btn-success{ color: var(--white);  background-color: var(--success);}
+
+.btn-danger{ color: var(--white);  background-color: var(--danger);}
+
+.btn-warning{ color: var(--white);  background-color: var(--warning);}
+
+.btn-info{ color: var(--white);  background-color: var(--info);}
+
+.btn-dark{ color: var(--white);  background-color: var(--dark);}
+
+.btn-light{ color: var(--white);  background-color: var(--light);}
+
+.btn-outline-primary{
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--dark);
 }
+.btn-outline-primary:hover{
+    background-color:var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
+
+/*flex items*/
+
+
+/*flex grid*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
