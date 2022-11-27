@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: goldenrod;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    background-color: #333;
+}
+.navbar a{
+    color: #fff;
+    padding:16px 20px ;
+   text-decoration: none;
+   align-items: center;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+    color: #333;
+}
+.ph{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+}
+#main{
+    display: flex;
+}
+#sidebar{
+    order: 1;
+}
+
