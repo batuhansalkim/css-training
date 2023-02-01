@@ -58,6 +58,12 @@
 
 .btn-light{ color: var(--white);  background-color: var(--light);}
 
+.btn-outline{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
 .btn-outline-primary{
     background: transparent;
     border: 1px solid var(--primary);
@@ -81,9 +87,40 @@
 }
 
 /*flex columns*/
-
-
-
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex-columns .column{
+    flex: 1;
+}
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+    height: 100%;
+}
+.flex-columns .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+}
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+}
+.flex-columns h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.flex-columns p{
+    margin:2rem 0;
+}
 
 /*flex grid*/
 
