@@ -135,8 +135,11 @@ img{
     margin:2rem 0;
 }
 
-
-
+/*gallery*/
+.gallery img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
 
