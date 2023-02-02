@@ -141,11 +141,21 @@ img{
     cursor: pointer;
 }
 
+/*cards*/
+.card{
+    color: rgb(0, 0, 0);
+}
+.card p{
+    color: #fff;
+}
 
-
-
-
-
+/*teams*/
+.teams img{
+    border-radius: 50%;
+}
+.teams img:hover{
+    opacity: 0.7;
+}
 
 
 
