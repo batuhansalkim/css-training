@@ -124,14 +124,14 @@ img{
     margin-bottom: 1.5rem;
 }
 /* about */
-#about{
+.about{
     color: #fff;
 }
-#about h2{
+.about h2{
     font-size: 4rem;
     font-weight: 400;
 }
-#about p{
+.about p{
     margin:2rem 0;
 }
 
