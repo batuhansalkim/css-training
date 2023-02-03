@@ -158,11 +158,23 @@ img{
 }
 
 /*contact*/
-
-
-
-
-
+.contact-form{
+    width: 100%;
+    padding: 2rem 0;
+}
+.contact-form label{
+    display: block;
+    margin-bottom: .5rem;
+}
+.contact-form .form-control{
+    margin-bottom: 1.5rem;
+}
+.contact-form input{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid #f5f5f5;
+}
 
 
 
