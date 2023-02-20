@@ -23,9 +23,11 @@ header .top{
     background-color: #6e8238;
 }
 .top .top__left{
-    width: 100vw;
+    background-color: #00b8ad;
+    float: left;
     height: 5.5rem;
-    background-color: #6e8238;
+    width: 15%;
+
 }
 .top .top__right{
     background-color: #6e8238;
@@ -48,8 +50,157 @@ nav{
     position: relative;
     margin-top: 1.2rem;
     margin-bottom: 6rem;
-    
 }
+.container .content-1{
+    margin-top: 1.2rem;
+    height: 50rem;
+    width: 100vw;
+    background-color: #e2e2e2;
+}
+.content__title {
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+}
+.title-1,
+.title-3,
+.title-4 {
+  color: #4f4f4f;
+}
+.title-2{
+  color: #fff;
+}
+
+.boxes{
+display: flex;
+justify-content: space-around;
+margin-top: 2rem;
+}
+.box__item{
+    width: 20rem;
+    height: 20rem;
+    background-color: #44948a;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100vw;
+    text-align: center;
+    background-color: #336981;
+}
+.content-2 .text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #fff;
+    width: 90%;
+    line-height: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.container .content-3 {
+  margin-top: 3rem;
+  height: 50rem;
+  width: 100vw;
+  background-color: #e2e2e2;
+}
+.content-3 .boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2rem;
+}
+.box__item {
+  width: 20rem;
+  height: 20rem;
+  background-color: #44948a;
+}
+.content-4{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50rem;
+    width: 100vw;
+    background-color: #e2e2e2;
+}
+.title-4{
+    margin-top: 1rem;
+}
+
+.form{
+    margin-top: 2rem;
+}
+.form__box{
+    margin: 1.5rem 0;
+}
+.form__item {
+  padding: 0.1rem 2rem;
+}
+input[type="text"] {
+  width: 25rem;
+  height: 3.3rem;
+  background-color: #656565;
+  outline: none;
+  border: none;
+}
+.textarea {
+  width: 25rem;
+  height: 15rem;
+  background-color: #656565;
+  outline: none;
+  border: none;
+}
+.btn{
+    background-color: #656565;
+    outline: none;
+  font-size: 1.2rem;
+  width: 6rem;
+   margin: 0 21rem;
+   height: 3rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.footer{
+    bottom: 0;
+    text-align: center;
+    background-color: #2e2e2e;
+    width: 100vw;
+    height: 3.6rem;
+    color: white;
+}
+.footer .footer__text {
+  padding-top: 1.2rem;
+}
+.footer .footer__text .footer__span {
+  color: #68c9ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
