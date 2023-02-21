@@ -64,6 +64,8 @@ button{
     background-color: #215ED7;
     color: #fff;
 }
+
+
 .features-wrapper{
     height: 200px;
     background-color: #F8F9FA;
@@ -85,12 +87,31 @@ button{
     font-size: 1.2rem;
     margin: .5rem 0;
 }
+.features-wrapper .feature .feature-text {
+    color: #6c7071;
+}
 
 
 
-
-
-
+.features-detail-wrapper .feature-wrapper {
+    display: flex;
+}
+.features-detail-wrapper .feature-wrapper>div {
+    width: 100%;
+    max-width: 50%;
+    height: 350px;
+}
+.features-detail-wrapper .feature-wrapper .feature-text-area .feature-title {
+    align-self: start;
+}
+.feature-text-area .feature-description {
+    color: #6c7071;
+    line-height: 1.5rem;
+}
+.feature-image-area img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
