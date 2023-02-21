@@ -101,26 +101,101 @@ button{
     max-width: 50%;
     height: 350px;
 }
+.features-detail-wrapper .feature-wrapper .feature-text-area .feature-text-wrapper{
+    display: block;
+   align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
 .features-detail-wrapper .feature-wrapper .feature-text-area .feature-title {
     align-self: start;
+}
+.features-detail-wrapper .feature-wrapper .feature-text-area .feature-text-wrapper{
+    
+    text-align: center;
 }
 .feature-text-area .feature-description {
     color: #6c7071;
     line-height: 1.5rem;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+    
 }
 .feature-image-area img {
     width: 100%;
     height: 100%;
 }
+.comments-wrapper{
+    background-color: #F8F9FA;
+    height: 300px;
+    padding: 5rem 0;
+}
+.comments-wrapper .comments-title{
+    text-align: center;
+}
+.comments-wrapper .container{
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+gap: 4rem;
+}
+.comments-wrapper .author-info-wrapper {
+    width: 20%;
+}
+.comments-wrapper .author-info-wrapper .author-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+footer{
+    background-color: #F8F9FA;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-nav-links{
+    display: flex;
+    gap: .8rem;
+}
 
+.footer .footer-link {
+    color: #215ED7;
+    position: relative;
+}
+.footer .footer-link:not(:last-child):after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10px;
+}
 
-
-
-
-
-
-
-
+.footer .copyright-text {
+    color: #6C7071;
+    font-size: .75rem;
+}
+.footer .social-links{
+    display: flex;
+    color: #215ED7;
+    gap:.8rem
+}
+.footer .social-links i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer .social-links i:hover{
+    color: red;
+}
 
 
 
