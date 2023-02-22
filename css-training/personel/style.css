@@ -1,0 +1,22 @@
+.merkezcil{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+.continer{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.continer1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left:200px ;
+}
+.continer2{
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    background-color:green;
+}
