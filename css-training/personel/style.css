@@ -1,22 +1,51 @@
-.merkezcil{
-    text-align: center;
-    margin: auto;
-    background-color: black;
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
 }
-.continer{
-    width: 200px;
-    height: 200px;
+
+.kutu1{
+    width: 100px;
+    height: 100px;
     background-color: red;
 }
-.continer1{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    margin-left:200px ;
+.kutu2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+    background-color: rgb(30, 0, 255);
 }
-.continer2{
-    width: 200px;
-    height: 200px;
-    margin-left: 400px;
-    background-color:green;
+.kutu3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(246, 255, 0);
 }
+.brithday_to_you_bro{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.skill-row{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin:100px auto 100px auto;
+}
+
+.skill-row .chilli-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.skill-row .code-img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 70px;
+}
+.code-skill-description{
+    clear: left;
+}
+
